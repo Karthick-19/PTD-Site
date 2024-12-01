@@ -1,11 +1,7 @@
 #about {
-  background-color: $primary-color;
-  background-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
-  );
-  color: $white-color;
+  background-color: #ffffff; /* Change background color to white */
+  background-image: none; /* Remove gradient background if not needed */
+  color: #000000; /* Update text color for better contrast on white background */
   height: 100%;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -58,7 +54,7 @@
         }
 
         &--important {
-          background: darken($secondary-color, 1%);
+          background: transparent; /* Ensure no background for important text */
           display: inline-block;
           font-style: italic;
           padding: 0 0.3rem;

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <style>body {
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.gallery {
+  width: 80%;
+  max-width: 1000px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  display: grid;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.5);
+  box-shadow: 0 8px 16px #0000004d;
+}
+
+</style>
+</head>
+<body>
+  
+  <div class="gallery">
+    <img src="https://via.placeholder.com/150" alt="Work 1">
+    <img src="https://via.placeholder.com/150" alt="Work 2">
+    <img src="https://via.placeholder.com/150" alt="Work 3">
+    <img src="https://via.placeholder.com/150" alt="Work 4">
+    <img src="https://via.placeholder.com/150" alt="Work 5">
+    <img src="https://via.placeholder.com/150" alt="Work 6">
+    <img src="https://via.placeholder.com/150" alt="Work 7">
+    <img src="https://via.placeholder.com/150" alt="Work 8">
+    <img src="https://via.placeholder.com/150" alt="Work 9">
+    <img src="https://via.placeholder.com/150" alt="Work 10">
+  </div>
+<script src="/gallery.f2fcda7c.js"></script></body>
+</html>
