@@ -22,7 +22,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.2",
-    "prettier": "^2.12.1"
+    "prettier": "^2.10.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
